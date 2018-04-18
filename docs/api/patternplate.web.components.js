@@ -79,7 +79,7 @@ window["patternplate-components"] =
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n// lib/hello-world/demo.js\nmodule.exports = {\n  html: () => `\n    <link data-import rel=\"import\" href=\"/api/static/component.html\">\n  `,\n  default: function() {\n    const el = document.querySelector(\"[data-import]\");\n    const content = el.import;\n    const defaultExport = content.querySelector(\"[data-export=\\\"default\\\"]\");\n\n    document.body.appendChild(defaultExport);\n  }\n};\n\n\n//# sourceURL=webpack://patternplate-%5Bname%5D/./lib/hello-world/demo.js?");
+eval("\n// lib/hello-world/demo.js\nmodule.exports = {\n  html: () => `\n    <link data-import rel=\"import\" href=\"../static/component.html\">\n  `,\n  default: function() {\n    const el = document.querySelector(\"[data-import]\");\n    const content = el.import;\n    const defaultExport = content.querySelector(\"[data-export=\\\"default\\\"]\");\n\n    document.body.appendChild(defaultExport);\n  }\n};\n\n\n//# sourceURL=webpack://patternplate-%5Bname%5D/./lib/hello-world/demo.js?");
 
 /***/ }),
 
@@ -101,7 +101,7 @@ eval("\n    module.exports['lib/hello-world/demo.js'] = __webpack_require__(/*! 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"\\n// lib/hello-world/demo.js\\nmodule.exports = {\\n  html: () => `\\n    <link data-import rel=\\\"import\\\" href=\\\"/api/static/component.html\\\">\\n  `,\\n  default: function() {\\n    const el = document.querySelector(\\\"[data-import]\\\");\\n    const content = el.import;\\n    const defaultExport = content.querySelector(\\\"[data-export=\\\\\\\"default\\\\\\\"]\\\");\\n\\n    document.body.appendChild(defaultExport);\\n  }\\n};\\n\"\n\n//# sourceURL=webpack://patternplate-%5Bname%5D/./lib/hello-world/demo.js?./node_modules/raw-loader");
+eval("module.exports = \"\\n// lib/hello-world/demo.js\\nmodule.exports = {\\n  html: () => `\\n    <link data-import rel=\\\"import\\\" href=\\\"../static/component.html\\\">\\n  `,\\n  default: function() {\\n    const el = document.querySelector(\\\"[data-import]\\\");\\n    const content = el.import;\\n    const defaultExport = content.querySelector(\\\"[data-export=\\\\\\\"default\\\\\\\"]\\\");\\n\\n    document.body.appendChild(defaultExport);\\n  }\\n};\\n\"\n\n//# sourceURL=webpack://patternplate-%5Bname%5D/./lib/hello-world/demo.js?./node_modules/raw-loader");
 
 /***/ })
 
